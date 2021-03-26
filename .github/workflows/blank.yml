@@ -36,5 +36,6 @@ jobs:
           echo test, and deploy your project.
 
       - name: information
-        cat /etc/lsb-release
-        uname -a
+        run : |
+          cat /etc/lsb-release
+          uname -a
